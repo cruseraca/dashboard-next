@@ -1,16 +1,21 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.trigger:hover {
+  color: #1890ff;
 }
 
-* {
-  box-sizing: border-box;
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
 }
